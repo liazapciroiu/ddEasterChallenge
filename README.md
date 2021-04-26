@@ -1,5 +1,4 @@
-# DD Easter Egg Collection
-
+# DD Easter Egg Collection [deployed](https://liazapciroiu.github.io/ddEasterEggCollection/)
 This project is meant to be a fun and relaxed challenge that we can all work together on.
 
 Please read the rules before merging :) and Happy coding!
