@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const packageJson = require('./package.json');
 
 const paths = {
-  dist: path.resolve(__dirname, 'dist'),
+  dist: path.resolve(__dirname, 'docs'),
   src: path.resolve(__dirname, 'src'),
 };
 
