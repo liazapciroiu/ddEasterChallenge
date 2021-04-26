@@ -8,8 +8,8 @@ Please read the rules before merging :) and Happy coding!
 * Code your word/easter egg in a file under the src/eggs/ folder
 * Import it into the src/scripts.js file - here  you can also invoke your function if you need to do so
 * Update the src/index.html file with your word and the description (add a table row)
-* Make sure that all the previous words still work 
-* Merge into master
+* Make sure that all the previous words still work
+* Run ```npm run build``` and then merge into master
 * Don't forget to nominate other colleagues
 
 Note: other words to get you inspired can be found in the assets/eggIdeas.json file and you can also update the list with things you want to see made
@@ -32,4 +32,8 @@ npm install
 Run the following to start a local dev build:
 ```
 npm run dev
+```
+Run the following to update the prod:
+```
+npm run build
 ```
