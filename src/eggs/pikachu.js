@@ -61,7 +61,6 @@ export function pikachu(window) {
     }, 2300);
     window.setTimeout(function () {
       img.parentNode.removeChild(img);
-      shock.parentNode.removeChild(shock);
     }, 3400);
 
   };
