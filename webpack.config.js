@@ -1,18 +1,18 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const packageJson = require('./package.json');
+const packageJson = require("./package.json");
 
 const paths = {
-  dist: path.resolve(__dirname, 'docs'),
-  src: path.resolve(__dirname, 'src'),
+  dist: path.resolve(__dirname, "docs"),
+  src: path.resolve(__dirname, "src"),
 };
 
 module.exports = {
-  entry: paths.src + '/scripts.js',
+  entry: paths.src + "/scripts.js",
   output: {
-    filename: 'main.js',
+    filename: "main.js",
     path: paths.dist,
   },
   module: {
@@ -21,9 +21,9 @@ module.exports = {
         test: [/.js$|.ts$/],
         exclude: /(node_modules)/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env', '@babel/typescript'],
+            presets: ["@babel/preset-env", "@babel/typescript"],
           },
         },
       },
@@ -32,22 +32,22 @@ module.exports = {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: true,
-            },
+            // options: {
+            //   hmr: true,
+            // },
           },
-          'css-loader',
-          'sass-loader',
+          "css-loader",
+          "sass-loader",
         ],
       },
       {
         test: /\.(png|jpg|gif)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
             options: {
-              name: '[name].[ext]',
-              outputPath: 'assets/images',
+              name: "[name].[ext]",
+              outputPath: "assets/images",
             },
           },
         ],
@@ -56,7 +56,7 @@ module.exports = {
         test: /\.svg$/,
         use: [
           {
-            loader: 'svg-inline-loader',
+            loader: "svg-inline-loader",
             options: {
               idPrefix: true,
             },
@@ -76,7 +76,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: packageJson.title,
-      template: './src/index.html',
+      template: "./src/index.html",
       xhtml: true,
       inject: true,
       minify: {
@@ -85,7 +85,7 @@ module.exports = {
       },
     }),
     new MiniCssExtractPlugin({
-      filename: 'style.css',
+      filename: "style.css",
     }),
   ],
 };
