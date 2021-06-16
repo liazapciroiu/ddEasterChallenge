@@ -16,8 +16,7 @@ module.exports = {
     path: paths.dist,
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: [/.js$|.ts$/],
         exclude: /(node_modules)/,
         use: {
@@ -29,12 +28,11 @@ module.exports = {
       },
       {
         test: /\.s*(c|a)ss$/i,
-        use: [
-          {
+        use: [{
             loader: MiniCssExtractPlugin.loader,
-            // options: {
-            //   hmr: true,
-            // },
+            options: {
+              emit: true,
+            },
           },
           "css-loader",
           "sass-loader",
@@ -42,26 +40,22 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif)$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[ext]",
-              outputPath: "assets/images",
-            },
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'assets/images',
           },
-        ],
+        }, ],
       },
       {
         test: /\.svg$/,
-        use: [
-          {
-            loader: "svg-inline-loader",
-            options: {
-              idPrefix: true,
-            },
+        use: [{
+          loader: 'svg-inline-loader',
+          options: {
+            idPrefix: true,
           },
-        ],
+        }, ],
       },
     ],
   },

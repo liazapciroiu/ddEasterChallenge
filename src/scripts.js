@@ -1,10 +1,11 @@
 import "./styles.scss";
-import { pikachu } from "./eggs/pikachu";
-import { music } from "./eggs/music";
-import socks from "./eggs/socks";
+import {
+    pikachu
+} from "./eggs/pikachu";
+import {
+    floricica
+} from "./eggs/floricica";
 
 pikachu(window);
 
-music(window);
-
-socks();
+floricica(window);
