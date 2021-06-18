@@ -160,3 +160,9 @@ footer p {
     transform: scale(1, 1) rotateZ(360deg);
   }
 }
+
+#myCanvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
