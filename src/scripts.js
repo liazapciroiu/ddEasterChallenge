@@ -6,6 +6,8 @@ import { floricica } from "./eggs/floricica";
 import duke from "./eggs/duke";
 import monkeys from './eggs/monkeys/monkeys'
 import cats from './eggs/cats';
+import { sportsmonth } from "./eggs/sportsmonth";
+
 pikachu(window);
 music(window);
 socks();
@@ -13,3 +15,4 @@ floricica(window);
 duke(window);
 monkeys(window);
 cats(window)
+sportsmonth(window);
