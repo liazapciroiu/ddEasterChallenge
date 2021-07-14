@@ -1,0 +1,45 @@
+.rotatedDown {
+    transform: rotate(45deg);
+    /* Equal to rotateZ(45deg) */
+}
+
+.rotatedUp {
+    transform: rotate(-45deg);
+    /* Equal to rotateZ(45deg) */
+}
+/* The element to apply the animation to */
+
+.leftToRightAnimate {
+    position: relative;
+    top: 50%;
+    left: -25%;
+    transition-duration: 27000ms;
+    transform: translate(700%);
+    width: 365px;
+    height: 166px;
+}
+
+.topLeftToBottomRightAnimate {
+    transform: translate(225%, 450%);
+    transition-duration: 27000ms;
+    position: relative;
+    top: 0%;
+    left: -25%;
+}
+
+.bottomLeftToTopRightAnimate {
+    transform: translate(225%, 450%);
+    transition-duration: 27000ms;
+    position: relative;
+    top: 125%;
+    left: -25%;
+}
+.catContainer {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    z-index: 999999;
+}
