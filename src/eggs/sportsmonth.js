@@ -17,13 +17,15 @@ export function sportsmonth(window) {
     imgLogo.style.transition = '1s all';
     imgLogo.style.position = 'fixed';
     imgLogo.style.bottom = '150px';
+    imgLogo.style.left = '0px';
     imgLogo.style.margin = '50px';
     imgLogo.style.zIndex = 999999;
 
     document.body.appendChild(imgLogo);
 
     window.setTimeout(function () {
-      imgLogo.style.bottom = '0px';
+    imgLogo.style.bottom = '0px';
+    imgLogo.style.left = '0px';
     }, 50);
     window.setTimeout(function () {
       imgLogo.style.bottom = '-250px';
@@ -61,11 +63,11 @@ export function sportsmonth(window) {
 
   var createSportsCommunityBigLogo = function () {
     createSportsCommunityLogo(2000, 3000);
-    imgLogo.style.width = '850px';
+    imgLogo.style.width = '800px';
     imgLogo.style.transition = '0.6s all';
     imgLogo.style.position = 'fixed';
     imgLogo.style.bottom = '-900px';
-    imgLogo.style.right = '-900px';
+    imgLogo.style.right = '-600px';
     imgLogo.style.zIndex = 999999;
 
     document.body.appendChild(imgLogo);
@@ -253,7 +255,7 @@ export function sportsmonth(window) {
     img.style.position = 'fixed';
     img.style.top = '-774px';
     img.style.bottom = 'calc(-50% + 450px)';
-    img.style.left = '500px';
+    img.style.left = '200px';
     img.style.zIndex = 999999;
 
     document.body.appendChild(img);
@@ -295,15 +297,15 @@ export function sportsmonth(window) {
   };
 
   var skateWord = function () {
-    var data = "https://lh3.googleusercontent.com/proxy/xmip1VugyvXBe0fx2j9yYPuVJE0t6YIs4XJgkQEAMWqffyCELptxDbLHq1wCTOBcD2XQKKZp3AmewORG8aLNzeREsmm2P4V9b3PusowhvrrLnflSto8zWim0rVewaurPYWyab-9plr4L";
+    var data = "./assets/images/skate.gif";
     
     var img = new Image;
     img.src = data;
-    img.style.width = '300px';
+    img.style.width = '200px';
     img.style.transition = '0.6s all';
     img.style.position = 'fixed';
     img.style.bottom = 'calc(75%)';
-    img.style.left = '-200px';
+    img.style.left = '-100px';
     img.style.zIndex = 999999;
 
     document.body.appendChild(img);
@@ -323,7 +325,7 @@ export function sportsmonth(window) {
 
     var img = new Image;
     img.src = data;
-    img.style.height = '150px';
+    img.style.height = '100px';
     img.style.transition = '1s all';
     img.style.position = 'fixed';
     img.style.right = '200px';
@@ -427,14 +429,14 @@ export function sportsmonth(window) {
     
     window.setTimeout(function () {
       img.parentNode.removeChild(img);
-    }, 10000);
+    }, 9500);
   };
 
   var mountainBike = function () {
     var data = "https://media2.giphy.com/media/4599UNa1cuKtCW3Qcw/giphy.gif?cid=ecf05e47b881fltxlxmnaoq1f41ed9r5ep8e2u4cr1ecj93e&rid=giphy.gif&ct=g";
     var img = new Image();
     img.src = data;
-    img.style.width = '960px';
+    img.style.width = '760px';
     img.style.transition = '1s all';
     img.style.position = 'fixed';
     img.style.zIndex = 999999;
@@ -444,13 +446,13 @@ export function sportsmonth(window) {
     document.body.appendChild(img);
 
     window.setTimeout(function () {
-      img.style.left = '420px';
-      img.style.bottom = '300px';
+      img.style.left = '220px';
+      img.style.bottom = '200px';
     }, 3500);
     
     window.setTimeout(function () {
       img.parentNode.removeChild(img);
-    }, 9000);
+    }, 8900);
   };
 
   var bikeWord = function () {
@@ -458,18 +460,18 @@ export function sportsmonth(window) {
 
     var img = new Image;
     img.src = data;
-    img.style.height = '250px';
+    img.style.height = '220px';
     img.style.transition = '1s all';
     img.style.position = 'fixed';
-    img.style.left = '400px';
-    img.style.top = '200px';
+    img.style.left = '300px';
+    img.style.top = '70px';
     img.style.zIndex = 999999;
 
     document.body.appendChild(img);
 
     window.setTimeout(function () {
-      img.style.left = '400px';
-      img.style.top = '200px';
+      img.style.left = '300px';
+      img.style.top = '70px';
     }, 2000);
     window.setTimeout(function () {
       img.parentNode.removeChild(img);
@@ -522,7 +524,7 @@ export function sportsmonth(window) {
     img.style.height = '400px';
     img.style.transition = '1s all';
     img.style.position = 'fixed';
-    img.style.right = '-500px';
+    img.style.right = '-450px';
     img.style.top = '-400px';
     img.style.zIndex = 999999;
 
@@ -542,7 +544,7 @@ export function sportsmonth(window) {
     var data = "https://media0.giphy.com/media/UdJiT7AbXWUbEz54DV/giphy.gif?cid=790b761135046286b3065114b7cf0096da6825a196b0ef75&rid=giphy.gif&ct=g";
     var img = new Image();
     img.src = data;
-    img.style.width = '900px';
+    img.style.width = '850px';
     img.style.transition = '1s all';
     img.style.position = 'fixed';
     img.style.left = '50%';
@@ -550,10 +552,10 @@ export function sportsmonth(window) {
     img.style.transform = 'translate(-50%, -50%)';
     img.style.zIndex = 999999;
     window.setTimeout(function () {
-      img.style.width = '1000px';
+      img.style.width = '900px';
     }, 2400);
     window.setTimeout(function () {
-      img.style.width = '1200px';
+      img.style.width = '1100px';
     }, 3500);
     document.body.appendChild(img);
 
@@ -568,7 +570,7 @@ export function sportsmonth(window) {
     var img = new Image;
     img.src = data;
     img.style.height = '400px';
-    img.style.right = '200px';
+    img.style.right = '170px';
     img.style.bottom = '300px';
     img.style.transition = '1s all';
     img.style.position = 'fixed';
@@ -584,7 +586,7 @@ export function sportsmonth(window) {
   var sportsmonth = function () {
     audio.play();
     // SKATE
-    createSportsCommunityLogo(5700, 6000);
+    createSportsCommunityLogo(5200, 6000);
     rollerSkatePassing();
     stanOnBike();
     skateWithDalmatian();
