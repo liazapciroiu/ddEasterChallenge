@@ -1,7 +1,6 @@
 export function manele(window) {
   // manele
   const key = [77, 65, 78, 69, 76, 69];
-
   let ck = 0;
   const max = key.length;
   let running = false;
