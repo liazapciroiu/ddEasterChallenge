@@ -35,6 +35,9 @@ export default (window) => {
         <div class="cup10">
             <div class="handle"></div>
         </div>
+        <div class="cup11">
+            <div class="handle"></div>
+        </div>
         `;
 
   const renderCoffeeCupsHtml = () => {
@@ -60,7 +63,7 @@ export default (window) => {
       isPlaying = false;
       document.body.removeChild(elem);
       head.removeChild(link);
-    }, 5000);
+    }, 10000);
   };
 
   const init = () => {
