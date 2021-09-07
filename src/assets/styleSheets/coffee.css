@@ -1,0 +1,100 @@
+.cup1,
+.cup2,
+.cup3,
+.cup4,
+.cup5,
+.cup6,
+.cup7,
+.cup8,
+.cup9,
+.cup10 {
+  height: 140px;
+  width: 180px;
+  border: 6px solid white;
+  position: absolute;
+  border-radius: 0px 0px 70px 70px;
+  background: url(../images/coffee.png);
+  background-repeat: repeat-x;
+  background-position: 0px 140px;
+  animation: fill 2.5s infinite;
+  box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.185);
+}
+
+.cup1 {
+  top: 80%;
+  left: 55%;
+}
+
+.cup2 {
+  top: 30%;
+  left: 20%;
+}
+
+.cup3 {
+  top: 93%;
+  left: 80%;
+}
+
+.cup4 {
+  top: 22%;
+  left: 80%;
+}
+
+.cup5 {
+  top: 40%;
+  left: 50%;
+}
+
+.cup6 {
+  top: 90%;
+  left: 25%;
+}
+
+.cup7 {
+  top: 60%;
+  left: 5%;
+}
+
+.cup8 {
+  top: 57%;
+  left: 77%;
+}
+
+.cup9 {
+  top: 5%;
+  left: 8%;
+}
+
+.cup10 {
+  top: 10%;
+  left: 60%;
+}
+
+@keyframes fill {
+  0% {
+    background-position: 0px 140px;
+  }
+  20% {
+    background-position: -450px 100px;
+  }
+  40% {
+    background-position: -900px 50px;
+  }
+  80% {
+    background-position: -1350px -40px;
+  }
+  100% {
+    background-position: 0px 140px;
+  }
+}
+
+.handle {
+  height: 10px;
+  width: 40px;
+  background-color: transparent;
+  border: 10px solid rgba(0, 0, 0, 0.185);
+  position: relative;
+  left: 186px;
+  top: 5px;
+  border-radius: 0px 25px 80px 0px;
+}
