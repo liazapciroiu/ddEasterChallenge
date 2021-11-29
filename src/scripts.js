@@ -11,6 +11,7 @@ import { sportsmonth } from './eggs/sportsmonth'
 import { manele } from './eggs/manele'
 import coffee from './eggs/coffee'
 import { dreams } from './eggs/dreams'
+import { rocket } from './eggs/rocket'
 
 pikachu(window)
 music(window)
@@ -23,3 +24,4 @@ sportsmonth(window)
 manele(window)
 coffee(window)
 dreams(window)
+rocket(window)
