@@ -13,6 +13,7 @@ import { dreams } from './eggs/dreams'
 import santa from './eggs/santa'
 import { rocket } from './eggs/rocket'
 import { ghost } from './eggs/ghost'
+import { payday } from './eggs/payday'
 
 pikachu(window)
 music(window)
@@ -28,3 +29,4 @@ dreams(window)
 santa(window)
 rocket(window)
 ghost(window)
+payday(window)
