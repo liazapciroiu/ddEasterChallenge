@@ -1,7 +1,6 @@
 import './styles.scss'
 import { pikachu } from './eggs/pikachu'
 import { music } from './eggs/music'
-
 import socks from './eggs/socks'
 import { floricica } from './eggs/floricica'
 import duke from './eggs/duke'
@@ -11,6 +10,7 @@ import { sportsmonth } from './eggs/sportsmonth'
 import { manele } from './eggs/manele'
 import coffee from './eggs/coffee'
 import { dreams } from './eggs/dreams'
+import santa from './eggs/santa'
 
 pikachu(window)
 music(window)
@@ -23,3 +23,4 @@ sportsmonth(window)
 manele(window)
 coffee(window)
 dreams(window)
+santa(window)
