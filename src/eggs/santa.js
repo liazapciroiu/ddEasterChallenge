@@ -19,7 +19,7 @@ export default(window) => {
                                 <div class="prize">
                                     <div class="prize-content">
                                         <div class="prize-title">
-                                            A vacation to Dubai! 
+                                            A PS5! 
                                         </div>
                                         <div class="prize-pic">
                                             <img src="../assets/images/ps5.jpg">
@@ -33,7 +33,7 @@ export default(window) => {
                                             </div>
                                         </div>
                                         <div class="claim">
-                                            <a href="https://www.emag.ro/crocs-saboti-slingback-relaxed-fit-crocband/fd/2462809/culoare-c5401,bleumarin-v8456459/?X-Search-Id=edc8a26f44fb8aa2e793&X-Product-Id=6239857&X-Search-Page=1&X-Search-Position=2&X-Section=search&X-MB=0&X-Search-Action=view">
+                                            <a href="https://www.emag.ro/crocs-saboti-slingback-relaxed-fit-crocband/fd/2462809/culoare-c5401,bleumarin-v8456459/?X-Search-Id=edc8a26f44fb8aa2e793&X-Product-Id=6239857&X-Search-Page=1&X-Search-Position=2&X-Section=search&X-MB=0&X-Search-Action=view" target="_blank">
                                                 <button>CLAIM YOUR PRIZE</button>
                                             </a>
                                         </div>
@@ -63,7 +63,7 @@ export default(window) => {
                                             </div>
                                         </div>
                                         <div class="claim">
-                                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+                                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
                                                 <button>CLAIM YOUR PRIZE</button>
                                             </a>
                                         </div>
