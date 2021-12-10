@@ -11,6 +11,7 @@ import { manele } from './eggs/manele'
 import coffee from './eggs/coffee'
 import { dreams } from './eggs/dreams'
 import santa from './eggs/santa'
+import { rocket } from './eggs/rocket'
 
 pikachu(window)
 music(window)
@@ -24,3 +25,4 @@ manele(window)
 coffee(window)
 dreams(window)
 santa(window)
+rocket(window)
