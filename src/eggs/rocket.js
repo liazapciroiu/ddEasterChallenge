@@ -19,7 +19,7 @@ export function rocket(window) {
         fire.style.height = '100px';
         fire.style.transition = '3.8s';
         fire.style.transform = 'rotate(180deg)';
-        fire.style.position = 'fixed';
+        fire.style.position = 'absolute';
         fire.style.left = 'calc(50% - 32px)';
         fire.style.top = `${fireTop}px`
         fire.style.zIndex = 999998;
