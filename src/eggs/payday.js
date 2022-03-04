@@ -12,11 +12,10 @@ export function payday(window) {
     var payday = function() {
 
         img.src = "../assets/images/money-cloud.gif";;
-        img.style.width = '500px';
-        img.style.height = '600px';
-        img.style.transition = '4s';
+        img.style.width = 'auto';
+        img.style.height = '50vh';
         img.style.position = 'fixed';
-        img.style.left = 'calc(50% - 250px)';
+        img.style.left = 'calc(50% - 25vh)';
         img.style.top = '0';
         img.style.transform = 'rotateZ(-15deg)';
         img.style.zIndex = 999998;
@@ -37,12 +36,11 @@ export function payday(window) {
         taxes.style.backgroundImage = "url('../assets/images/money-grinder.png')";
 
         coins.src = '../assets/images/coins-falling.gif';
-        coins.style.width = '500px';
+        coins.style.width = 'auto';
         coins.style.height = '50vh';
         coins.style.top = '50vh';
-        coins.style.transition = '4s';
         coins.style.position = 'fixed';
-        coins.style.left = 'calc(50% - 250px)';
+        coins.style.left = 'calc(50% - 25vh)';
         coins.style.zIndex = 999998;
 
         document.body.appendChild(imgC);
